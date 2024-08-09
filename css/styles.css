@@ -113,7 +113,7 @@ a {
   padding: 188px 0;
   background-image: url(../images/people-office.jpg);
   background-position: center;
-  background-size: auto;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
