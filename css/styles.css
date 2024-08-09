@@ -111,6 +111,10 @@ a {
 .hero {
   background-color: #2e2f42;
   padding: 188px 0;
+  background-image: url(../images/people-office.jpg);
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
 }
 
 .hero-heading {
