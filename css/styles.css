@@ -404,17 +404,12 @@ a {
   margin-right: 120px;
 }
 
-.social-media-container {
-  display: flex;
-  flex-direction: column;
-}
-
 .social-media-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--color-white, #ffffff);
   margin-bottom: 16px;
 }
 
@@ -424,12 +419,14 @@ a {
 }
 
 .social-media-item {
+  width: 40px;
+  height: 40px;
 }
 
 .social-media-link {
   width: 100%;
   height: 100%;
-  background-color: #4d5ae5;
+  background-color: var(--color-blue, #4d5ae5);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -443,7 +440,7 @@ a {
 }
 
 .social-media-icon {
-  fill: #f4f4fd;
+  fill: var(--color-light, #f4f4fd);
 }
 
 .portfolio-case:hover {
@@ -551,4 +548,6 @@ a {
   background-color: #4d5ae5;
   border-radius: 50%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-container-second {
 }
