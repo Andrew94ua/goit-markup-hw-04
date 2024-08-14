@@ -507,8 +507,7 @@ a {
   width: 40px;
   height: 40px;
   overflow: hidden;
-  width: 100%;
-  height: 100%;
+
   background-color: var(--color1, #4d5ae5);
   border-radius: 50%;
   display: flex;
@@ -536,6 +535,7 @@ a {
   box-sizing: border-box;
 }
 .member-info {
+  padding: 32px 0;
   width: 264;
   height: 426;
 }
